@@ -30,10 +30,11 @@ exports.config = {
             ConsoleReporter.forDarkTerminals(),
         ]
     },
-
+    cucumberOpts: {
+        format:'snippets:new.ts'
+    },
     capabilities: {
         browserName: 'chrome',
-
         chromeOptions: {
             args: [
                 '--disable-infobars',

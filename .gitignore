@@ -1,3 +1,9 @@
+target
+new.ts
+features/**/*.d.ts
+features/**/*.js.map
+features/**/*.js
+
 # Node
 node_modules
 *.log
