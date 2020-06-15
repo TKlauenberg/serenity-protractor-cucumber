@@ -1,0 +1,14 @@
+{
+  "include": ["features/**/*.ts"],
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": ["es2018"],
+    "module": "commonjs",
+    "sourceMap": true,
+    "declaration": true
+  },
+
+  "exclude": [
+    "node_modules"
+  ]
+}
